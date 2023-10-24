@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media  (min-width:600px) {
+    .navbar a {
+        margin: 0;
+    }
+}
+
+body{
+    background-color: 	#C19A6B
+}
+
+.ali {
+    font-weight: 700;
+    color: white;
+}
+
+.header {
+    background-color: #5C4033;
+
+}
+
+.navbar a {
+    color: white;
+    margin-right: 2rem;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color:#B87333 ;
+}
+
+.content {
+    width: auto;
+    padding: 200px;
+}
+
+
+.descript {
+    width: 800px;
+    padding: 20px;
+}
+
+.name {
+    font-weight: 400;
+}
+
+.pic {
+    width: auto;
+    margin-left: 40px;
+    margin-right: 30px;
+}
+
+div > img {
+    border-radius: 50%;
+}
